@@ -1,0 +1,26 @@
+{
+    "autore": {
+        "nome":"Dario Mennillo",
+        "ruolo": "Docente",
+        "corsi": ["WSA", "BID"],
+        "anno_scolastico": 2026
+    },
+
+    "studenti": [
+        {
+            "id":0,
+            "nome": "Pippo Rossi",
+            "corso": "WSA"
+        },
+        {
+            "id":1,
+            "nome":"Anna Verdi",
+            "corso": "BID"
+        },
+        {
+            "id":2,
+            "nome":"Maria Bianchi",
+            "corso": "WSA"
+        }
+    ]
+}
