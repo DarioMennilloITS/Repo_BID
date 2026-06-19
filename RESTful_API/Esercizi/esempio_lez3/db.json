@@ -1,0 +1,81 @@
+{
+  "infoApplicazione": {
+    "autore": "Dario Mennillo",
+    "versione": "v6",
+    "anno": 2026,
+    "attiva": false
+  },
+  "users": [
+    {
+      "id": "0",
+      "nome": "Dario Mennillo",
+      "email": "dario@mail.com",
+      "dataIscrizione": "19/06/26",
+      "ruolo": "Base"
+    },
+    {
+      "id": "1",
+      "nome": "Anna Rossi",
+      "email": "anna@mail.com",
+      "dataIscrizione": "15/06/26",
+      "ruolo": "Admin"
+    },
+    {
+      "id": "2",
+      "nome": "Marco Verdi",
+      "email": "marco@mail.com",
+      "dataIscrizione": "10/06/26",
+      "ruolo": "Admin"
+    },
+    {
+      "id": "3",
+      "nome": "Laura Bianchi",
+      "email": "laura@mail.com",
+      "dataIscrizione": "10/06/26",
+      "ruolo": "Base"
+    },
+    {
+      "id": "4",
+      "nome": "Franco Franchi",
+      "email": "francoF@mail.com",
+      "dataIscrizione": "15/06/26",
+      "ruolo": "Admin"
+    },
+    {
+      "id": "5",
+      "nome": "Ciccio Cicci",
+      "email": "ciccio@mail.com",
+      "dataIscrizione": "15/06/26",
+      "ruolo": "Base"
+    },
+    {
+      "id": "OmkRuH9DN5U",
+      "nome": "Paola Paoli",
+      "email": "paolap@mail.com",
+      "dataIscrizione": "19/06/26",
+      "ruolo": "Base"
+    }
+  ],
+  "controller": {
+    "anno": 2026,
+    "gruppo": "Tester FrontEnd",
+    "persone": [
+      {
+        "id": 0,
+        "nome": "Pippo Rossi",
+        "ruolo": "PM"
+      },
+      {
+        "id": 1,
+        "nome": "Maria Bianchi",
+        "ruolo": "operatore"
+      },
+      {
+        "id": 2,
+        "nome": "Luisa Gialli",
+        "ruolo": "operatore"
+      }
+    ]
+  },
+  "$schema": "./node_modules/json-server/schema.json"
+}
