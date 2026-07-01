@@ -18,7 +18,7 @@ const findIndexById = (id) => products.findIndex(p => p.id === parseInt(id));
 // ── GET /api/v1/products ──────────────────────────────────────────────────────
 // Supporta filtri via query string: ?categoria=elettronica&disponibile=true
 const getAll = (req, res) => {
-  const { categoria, disponibile } = req.query;
+  const { categoria, disponibile, sogliamax } = req.query;
 
   let result = products;
 
@@ -32,6 +32,17 @@ const getAll = (req, res) => {
     result = result.filter(p => p.disponibile === disp);
   }
 
+  if(sogliamax !== undefined){
+    const prezzoSoglia = parseFloat(sogliamax);
+
+    if(isNaN(prezzoSoglia)){
+      return res.status(400).json({
+        error: `Hai inserito un valore non valido: ${prezzoSoglia}`
+      })
+    }
+
+    result = result.filter(p => p.prezzo <= prezzoSoglia);
+  }
   res.status(200).json(result);
 };
 

@@ -1,0 +1,21 @@
+{
+    "id": 1,
+    "nome": "Dario",
+    "cognome": "Mennillo",
+    "corsi": [
+        {
+            "titolo": "BID",
+            "studenti": 24,
+            "materie": ["Java", "Javascript", "RESTful API"]
+        },
+        {
+            "titolo": "WSA",
+            "studenti": 30,
+            "materie": ["C#", "HTML CSS", "Javascript"]
+        }
+    ],
+    "ruolo": "docente",
+    "oreAssegnate": 125.5,
+    "indirizzo": null,
+    "contratto": true
+}

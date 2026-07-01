@@ -1,14 +1,6 @@
 # RESTful API — Lezione 04
 ## Codici di risposta HTTP
 
-| | |
-|---|---|
-| **Durata** | ~3 ore (2h teoria + 1h laboratorio) |
-| **Modulo** | 04 / 13 |
-| **Livello** | Intermedio |
-| **Stack** | JavaScript / Node.js / Express |
-
----
 
 ## 1. Obiettivi della lezione
 

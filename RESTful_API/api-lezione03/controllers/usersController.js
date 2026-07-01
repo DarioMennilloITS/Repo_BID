@@ -23,7 +23,7 @@ const getAll = (req, res) => {
 
   let result = users;
   if (ruolo) {
-    result = users.filter(u => u.ruolo === ruolo);
+     result = users.filter(u => u.ruolo === ruolo);
   }
 
   res.status(200).json(result);
