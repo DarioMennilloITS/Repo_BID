@@ -24,7 +24,9 @@ const calciatore = {
 
 //Posso sviluppare il replacer anche attraverso delle funzioni
 let calciatoreJSON = JSON.stringify(calciatore, (key, value) => {
-    if(key !== "id" || key !== "nome" || key !== "cognome"){
+    const campiDaTenere = ["id", "nome", "ruolo"];
+
+    if(key !== "" && !campiDaTenere.includes(key)){
         return undefined;
     }else{
         return value;
@@ -32,3 +34,22 @@ let calciatoreJSON = JSON.stringify(calciatore, (key, value) => {
 })
 
 console.log(calciatoreJSON);
+
+
+//Esistono dei valori limite nella serializzazione
+//Date
+//Function
+//BIGInt
+//Nan e Infinity
+
+//Esempio con BigInt
+
+// let datoBigInt = JSON.stringify({valoreDato: 5128545100005254851n});
+//per ovviare il problema posso passare alle string
+
+let datoBigInt = JSON.stringify({valoreDato: 5128545100005254851n.toString()});
+console.log(datoBigInt);
+
+let valoriNanInfinity = JSON.stringify({valore1: NaN, valore2: Infinity});
+console.log(valoriNanInfinity);
+
