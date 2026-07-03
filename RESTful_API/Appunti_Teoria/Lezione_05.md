@@ -20,7 +20,7 @@ JSON (JavaScript Object Notation) è un formato testuale per lo scambio di dati.
 
 È il formato di rappresentazione (concetto visto nella Lezione 01) più usato nelle API REST: leggibile, compatto, parsabile in modo efficiente.
 
-> 📘 **Nota** — JSON è uno standard formale: ECMA-404 e RFC 8259. Nonostante derivi da JavaScript, "JSON" e "oggetto JavaScript" non sono la stessa cosa — un oggetto JavaScript può contenere funzioni, `undefined`, riferimenti circolari, mentre il JSON no.
+>  **Nota** — JSON è uno standard formale: ECMA-404 e RFC 8259. Nonostante derivi da JavaScript, "JSON" e "oggetto JavaScript" non sono la stessa cosa — un oggetto JavaScript può contenere funzioni, `undefined`, riferimenti circolari, mentre il JSON no.
 
 ---
 
