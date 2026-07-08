@@ -1,5 +1,5 @@
-const Ajv = window.ajv7;
-const addFormats = window.ajvFormats;
+const Ajv = require('ajv')
+const addFormats = require('ajv-formats');
 
 console.log("Prima Prova con AJV");
 
